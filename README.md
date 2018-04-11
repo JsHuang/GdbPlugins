@@ -73,3 +73,11 @@ git subtree add --prefix=peda peda master -squash
 ```cpp
 git subtree pull --prefix=peda git@github.com:longld/peda.git master --squash
 ```
+# 使用 peda
+```echo "source ~/.GdbPlugins/peda/peda.py" > ~/.gdbinit```
+
+# 使用 gef
+```echo "source ~/.GdbPlugins/gef/gef.py" > ~/.gdbinit```
+
+#使用 gdbinit
+```echo "source ~/.GdbPlugins/gdbinit/gdbinit" > ~/.gdbinit```
